@@ -37,7 +37,10 @@ jobs:
         run: npm install @cucumber/cucumber
 
       - name: run cucumber script 
-        run: !
+        run: |
             npx cucumber-js --dry-run
+            npx cucumber-js --format html:github_reports.html
+            npx cucumber-js --profile notexists
+            npx cucumber-js --parallel 10
            
             
