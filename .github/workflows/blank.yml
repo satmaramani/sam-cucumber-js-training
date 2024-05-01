@@ -39,5 +39,5 @@ jobs:
       - name: run cucumber script 
         run: !
             npx cucumber-js --dry-run
-            npx cucumber-js 
+           
             
