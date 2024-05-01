@@ -1,0 +1,66 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "greeting;say-hello",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Say hello",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3359500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "the greeter says hello",
+            "match": {
+              "location": "features\\support\\steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 239889799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should have heard \"hello\"",
+            "match": {
+              "location": "features\\support\\steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 212352200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 100731299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "greeting",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Greeting",
+    "tags": [],
+    "uri": "features\\greetings.feature"
+  }
+]
